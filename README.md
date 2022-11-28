@@ -1,7 +1,7 @@
 # Erigon | eth_getBlockReceipts guide
 Erigon is becoming a more common Ethereum client, and this repo describes the ```eth_getBlockReceipts``` method which is available by querying a node running Erigon as a client.
 
-This article from [Chainstack](https://chainstack.com/) goes deep into how **Erigon** works compared to **Geth**.
+For an in-depth comparison and inner working of **Geth** and **Erigon**, see: [Ethereum clients—Geth and Erigon](https://chainstack.com/ethereum-clients-geth-and-erigon/).
 
 Calling ```eth_getBlockReceipts``` will return the receipts of all the transactions in a specified block displaying the transactions details. This method can be useful when you want to retrieve information about all the transactions in a block in one go— instead of calling multiple different methods.
 
